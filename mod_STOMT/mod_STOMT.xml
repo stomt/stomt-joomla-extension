@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_STOMT</name>
+	<author>STOMT! Project</author>
+	<creationDate>FEBRUARY 2018</creationDate>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 1 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>MOD_STOMT</description>
+	<files>
+		<filename module="mod_STOMT">mod_STOMT.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+</extension>
