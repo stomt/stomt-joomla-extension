@@ -11,8 +11,8 @@
 	<description>stomt module for Joomla 3.7 by stomt.com</description>
 	
 	<languages>
-		<language tag="en-GB">language/en-GB.mod_stomt.ini</language>
-		<language tag="De-GB">language/De-GB.mod_stomt.ini</language>
+		<language tag="en-GB">language/en.mod_stomt.ini</language>
+		<language tag="De-GB">language/De.mod_stomt.ini</language>
 
 	</languages>  
 		
