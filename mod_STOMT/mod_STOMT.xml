@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
-	<name>mod_STOMT</name>
-	<author>STOMT! Project</author>
-	<creationDate>FEBRUARY 2018</creationDate>
-	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License version 1 or later; see LICENSE.txt</license>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<version>3.0.0</version>
-	<description>MOD_STOMT</description>
+	<name>STOMT_API</name>
+	<author>Mariem Bader</author>
+	<creationDate>FEB 2018</creationDate>
+	<copyright>Copyright (C) 2010 - 2014 stomt.com. All rights reserved.</copyright>
+	<license>http://www.stomt.com/licenses</license>
+	<authorEmail>support@stomt.com</authorEmail>
+	<authorUrl>www.stomt.com</authorUrl>
+	<version>1.7</version>
+	<description>stomt module for Joomla 3.7 by stomt.com</description>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_stomt.ini</language>
+	</languages>  
+		
 	<files>
-		<filename module="mod_STOMT">mod_STOMT.php</filename>
+		<filename module="mod_stomt">mod_stomt.php</filename>
+		<folder>tmpl/</folder>
 		<filename>index.html</filename>
 	</files>
-	
+	<config>
+		<fields name="params">
+			<fieldset name="Basic">
+				
+
+				<field name="stomt_id" 
+					type="text" default="" 
+					label="STOMT_ID" 
+					description="STOMT_ID_DESC" />
+
+				<field name="stomt_label" 
+					type="text" default="" 
+					label="label" 
+					description="label" />
+
+
+					
+
+					<field name="responsive" 
+					type="radio"
+					class="btn-group" 
+					default="1"
+					label="RESPONSIVE" 
+					description="RESPONSIVE_DESC">
+						<option value="1">Enable</option>
+						<option value="0">Disable</option>
+					</field>
+
+
+
+					<field name="color_text" 
+					type="color" 
+					label="COLOR" 
+					description="COLOR_DESC" />
+
+
+				
+
+					<field name="showclose" 
+					type="radio"
+					class="btn-group" 
+					default="1"
+					label="SHOWCLOSE" 
+					description="SHOWCLOSE_DESC">
+						<option value="1">Enable</option>
+						<option value="0">Disable</option>
+					</field>
+
+					<field name="preload" 
+					type="radio"
+					class="btn-group" 
+					default="1"
+					label="PRELOAD" 
+					description="PRELOAD_DESC">
+						<option value="1">Enable</option>
+						<option value="0">Disable</option>
+					</field>
+					
+			</fieldset>
+			
+			
+		</fields>
+	</config>	
 </extension>
