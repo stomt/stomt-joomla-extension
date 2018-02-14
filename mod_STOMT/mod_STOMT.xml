@@ -12,6 +12,8 @@
 	
 	<languages>
 		<language tag="en-GB">language/en-GB.mod_stomt.ini</language>
+		<language tag="De-GB">language/De-GB.mod_stomt.ini</language>
+
 	</languages>  
 		
 	<files>
