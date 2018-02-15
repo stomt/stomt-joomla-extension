@@ -4,7 +4,7 @@ How to integrate STOMT on your JOOMLA website?
 
 ## Installation
 
-1. First, add the folder mod_STOMT under /modules.
+1. Download or clone this project.
 
 2. ZIP the folder "mod_STOMT"
 
