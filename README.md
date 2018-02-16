@@ -4,16 +4,15 @@ How to integrate STOMT on your JOOMLA website?
 
 ## Installation
 
-1. Download or clone this project.
+1. Download the ziped file.
 
-2. ZIP the folder "mod_STOMT"
 
 3. Open the joomla administrator page, choose "Extension" and then "Manage".
 
-4. Upload the Ziped folder "mod_STOMT.zip" 
+4. Upload the Ziped folder "stomt.zip" 
 
-5. Go again to "Extenstion", "Modules", then "New" and choose "STOMT" and you'll find the The STOMT widget added to your available modules of the website.
+5. Go again to "Extenstion", "plugins", then choose "System - STOMT" .
 
-6. Click on it, publish it, choose the position and other options, check in "Menu Assignment" the visibility, then save.
+6. Click on it, enable it,add the app-id, choose the position,text color,background color .... then save.
 
 ....Now it should work.
