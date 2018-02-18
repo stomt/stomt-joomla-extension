@@ -18,7 +18,7 @@ How to integrate STOMT on your JOOMLA website?
 ....Now it should work.
 
 ### options
-The `options` param has to be handed into the `addTab` function to initialize the widget and can be handed into the `showTab` function to update the widget state.
+The `options` param can be configured into the admin-panel to initialize the widget.
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
@@ -32,4 +32,3 @@ The `options` param has to be handed into the `addTab` function to initialize th
 | `file` | Object | By attaching a JSON object with the properties `name` (String) and `data` (Object) to the property `file`, data can be attached to STOMTs that are submitted from the Tab Widget. `data` can be any serialized data format or JSON. If your data is only valid JSON, you can also use the `json` option. |
 | `showClose` | Boolean | Via the `showClose` property, you can specify whether the Close Icon in the Tab Widget should be shown or not (default: `true`). |
 | `preload` | Boolean | By setting the property `preload` to `true`, you can tell the Widget to preload the Tab iframe in the background (default: `false`). This reduces the loading delay when showing the Tab for the first time. |
-| `targetId` _(deprecated)_ | String | The `targetId` is the page identifier for the page you want to address the wishes to. You can copy it from the pages url (https://www.stomt.com/stomt-javascript-sdk -> stomt-javascript-sdk). All stomts created using the JavaScript-SDK will be addressed to this page. |
