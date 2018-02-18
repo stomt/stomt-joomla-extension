@@ -30,3 +30,7 @@ The `options` param can be configured into the admin-panel to initialize the wid
 | `colorHover` | String | The `colorHover` option allows you to change the background color of the button when the user hovers it (default: `#04729E`). |
 | `showClose` | Boolean | Via the `showClose` property, you can specify whether the Close Icon in the Tab Widget should be shown or not (default: `true`). |
 | `preload` | Boolean | By setting the property `preload` to `true`, you can tell the Widget to preload the Tab iframe in the background (default: `false`). This reduces the loading delay when showing the Tab for the first time. |
+
+Example:
+<img alt="Easy Integration" align="middle" width="380" src="panel.png"/>
+
