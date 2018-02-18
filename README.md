@@ -2,6 +2,11 @@
 
 How to integrate STOMT on your JOOMLA website?
 
+## Demo
+
+View the live demo [here](https://stomt.github.io/stomt-javascript-sdk/). The projects [source](https://github.com/stomt/stomt-joomla-extension) can be found on GitHub, it itegrates the sdk dynamically in the [index.html](https://github.com/stomt/stomt-javascript-sdk/blob/master/docs/index.html#L99) file.
+
+
 ## Installation
 
 1. Download the ziped file.
