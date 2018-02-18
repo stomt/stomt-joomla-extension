@@ -49,7 +49,7 @@
                     <field name="position" 
                     type="radio"
                     class="btn-group" 
-                    default="1"
+                    default="right"
                     label="POSITION" 
                     description="POSITION_DESC">
                         <option value="right">Right</option>
