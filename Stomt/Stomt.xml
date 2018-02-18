@@ -82,11 +82,11 @@
                     <field name="showclose" 
                     type="radio"
                     class="btn-group" 
-                    default="1"
+                    default="true"
                     label="SHOWCLOSE" 
                     description="SHOWCLOSE_DESC">
-                        <option value="1">Enable</option>
-                        <option value="0">Disable</option>
+                        <option value="true">Enable</option>
+                        <option value="false">Disable</option>
                     </field>
 
                     <field name="preload" 

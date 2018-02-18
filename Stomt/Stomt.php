@@ -25,7 +25,7 @@ class plgSystemStomt extends JPlugin
 			$stomt_color_backg		= $this->params->get ('color_background');
 			$stomt_color_hover		= $this->params->get ('color_hover');
 			$position				= $this->params->get('position','right');
-			$showclose				= $this->params->get('showclose', 1);
+			$showclose				= $this->params->get('showclose', true);
 			if ($stomt_id) {
 				$js_code = "
 				var options = {
