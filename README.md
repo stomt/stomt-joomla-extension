@@ -2,9 +2,10 @@
 
 How to integrate STOMT on your JOOMLA website?
 
-## Demo
+## Description
+STOMT makes it easy for anyone to provide instant feedback. This plugin allows you to customize the STOMT feedback button and add it to your wordpress site.
 
-View the live demo [here](https://stomt.github.io/stomt-javascript-sdk/). The projects [source](https://github.com/stomt/stomt-joomla-extension) can be found on GitHub, it itegrates the sdk dynamically in the [index.html](https://github.com/stomt/stomt-javascript-sdk/blob/master/docs/index.html#L99) file.
+Installation is simple and only takes seconds.
 
 
 ## Installation
