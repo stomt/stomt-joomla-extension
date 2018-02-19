@@ -2,7 +2,19 @@
 
 How to integrate STOMT on your JOOMLA website?
 
-## Description
+=== STOMT - Instant Feedback Button ===
+Contributors: ptnplanet, stomt
+Tags: feedback, stomt, button
+Requires at least: 3.7
+Tested up to: 4.7
+Stable tag: trunk
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+Add STOMT's instant feedback widget to your wordpress site.
+
+== Description ==
+
 STOMT makes it easy for anyone to provide instant feedback. This plugin allows you to customize the STOMT feedback button and add it to your wordpress site.
 
 Installation is simple and only takes seconds.
