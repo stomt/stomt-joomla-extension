@@ -35,4 +35,5 @@ The `options` param can be configured into the admin-panel to initialize the wid
 
 ### Example:
 <img alt="Easy Integration" align="right" width="1080" src="panel.PNG"/>
+<img alt="Easy Integration" align="right" width="1080" src="user_interface.PNG"/>
 
