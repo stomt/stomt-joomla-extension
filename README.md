@@ -34,6 +34,8 @@ The `options` param can be configured into the admin-panel to initialize the wid
 | `preload` | Boolean | By setting the property `preload` to `true`, you can tell the Widget to preload the Tab iframe in the background (default: `false`). This reduces the loading delay when showing the Tab for the first time. |
 
 ### Example:
+Admin-panel:
 <img alt="Easy Integration" align="right" width="500" src="panel.PNG"/>
+User interface:
 <img alt="Easy Integration" align="right" width="500" src="user_interface.PNG"/>
 
