@@ -25,21 +25,25 @@ class plgSystemStomt extends JPlugin
 			$stomt_color_backg		= $this->params->get ('color_background');
 			$stomt_color_hover		= $this->params->get ('color_hover');
 			$position				= $this->params->get('position','right');
-			$showclose				= $this->params->get('showclose', true);
-			if ($stomt_id) {
-				$js_code = "
+			$showclose				= $this->params->get('showclose',0);
+			$preload				= $this->params->get('preload',0);
+			if ($stomt_id) {?>
+			<script>
+			var preload = <?php echo ($preload==0?'false':'true'); ?>;
+			var showclose = <?php echo ($showclose==0?'false':'true'); ?>;
+				
 				var options = {
-				  appId: '".$stomt_id."',
-				  colorText: '".$stomt_color_text."',
-				  showclose:'".$showclose."',
-				  label :'".$stomt_label."',
-				  colorBackground :'".$stomt_color_backg."',
-				  colorHover :'".$stomt_color_hover."',
-				  position: '".$position."'
-				  
+			  appId: '<?php echo $stomt_id; ?>',
+			  position: '<?php echo $position; ?>', 
+			  label: '<?php echo $stomt_label; ?>', 
+			  showClose: showclose,
+			  colorText: '<?php echo $stomt_color_text; ?>', 
+			  colorBackground:'<?php echo $stomt_color_backg; ?>',
+			  colorHover:'<?php echo $stomt_color_hover; ?>',
+			  preload:preload
+			};
 
 
-				};
 			  // Include the STOMT JavaScript SDK
 			  (function(w, d, n, r, t, s){
 			    w.Stomt = w.Stomt||[];
@@ -55,8 +59,11 @@ class plgSystemStomt extends JPlugin
 			  Stomt.push(['addTab', options]);
 			  Stomt.push(['addFeed', options]);
 			  Stomt.push(['addCreate', options]);
-				  ";
-				$document->addScriptDeclaration($js_code);
+				 
+				
+			</script>
+			<?php
+
 			}
 		}
 	}
