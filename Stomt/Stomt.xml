@@ -22,7 +22,7 @@
 
     <languages>
             <language tag="en-GB">en-GB.plg_system_Stomt.ini</language>
-            <language tag="en-GB">de-DE.plg_system_Stomt.ini</language>
+            <language tag="de-DE">de-DE.plg_system_Stomt.ini</language>
     </languages>
 
     <config>
@@ -41,7 +41,7 @@
                 <field name="stomt_label" 
                     type="text" default="Feedback" 
                     label="label" 
-                    description="label" />
+                    description="LABEL_DESC" />
 
 
                     
@@ -58,11 +58,13 @@
 
 
 
+                   
+
                     <field name="color_text" 
                     type="color" 
-                    label="COLOR" 
+                    label="COLOR_TEXT" 
                     default="#FFFFFF"
-                    description="COLOR_DESC" />
+                    description="COLOR_TEXT_DESC" />
 
                     <field name="color_background" 
                     type="color" 
@@ -76,27 +78,29 @@
                     default="#04729E"
                     description="COLOR_HOVER_DESC" />
 
-
                 
+
+                    
 
                     <field name="showclose" 
                     type="radio"
                     class="btn-group" 
-                    default="true"
+                    default="1"
                     label="SHOWCLOSE" 
-                    description="SHOWCLOSE_DESC">
-                        <option value="true">Enable</option>
-                        <option value="false">Disable</option>
+                    description="POSITION_DESC">
+                        <option value="1">true</option>
+                        <option value="0">false</option>
                     </field>
+                
 
-                    <field name="preload" 
+                <field name="preload"
                     type="radio"
                     class="btn-group" 
-                    default="1"
-                    label="PRELOAD" 
+                    default="0"
+                    label="PRELOAD"
                     description="PRELOAD_DESC">
-                        <option value="1">Enable</option>
-                        <option value="0">Disable</option>
+                        <option value="1">true</option>
+                        <option value="0">false</option>
                     </field>
                     
             </fieldset>
