@@ -22,6 +22,11 @@ View the live demo [here](https://stomt.github.io/stomt-javascript-sdk/). The pr
 
 ....Now it should work.
 
+
+## FAQ
+What is STOMT all about?
+STOMT lets you instantly give feedback in a predefined format. Head off to https://www.stomt.com to find out more!
+
 ### options
 The `options` param can be configured into the admin-panel to initialize the widget.
 
