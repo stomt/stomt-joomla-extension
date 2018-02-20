@@ -1,15 +1,6 @@
-<!--
-# stomt.php - stomt - A Screenshot paints a thousand words
-# author    Stomt GmbH
-# copyright Copyright (C) 2018 stomt.com. All Rights Reserved.
-# @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL 
-# Websites: http://www.stomt.com
-# Technical Support:  Forum - contact@stomt.com
-
--->
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="plugin" group="system" method="upgrade">
-    <name>System - STOMT</name>
+     <name>System - STOMT</name>
     <author>STOMT.com</author>
     <creationDate>FEB 2018</creationDate>
     <copyright>Copyright (C) 2015 stomt.com</copyright>
@@ -25,7 +16,7 @@
     </description>
 
     <files>
-            <filename plugin="Stomt">Stomt.php</filename>
+            <filename plugin="Stomt">stomt.php</filename>
             <filename>index.html</filename>
     </files>
 
@@ -34,12 +25,10 @@
             <language tag="de-DE">de-DE.plg_system_Stomt.ini</language>
     </languages>
 
+
     <config>
         <fields name="params">
-
-              
-
-                <fieldset name="Basic">
+ <fieldset name="Basic">
                 
 
                 <field name="stomt_id" 
@@ -116,7 +105,7 @@
         </fields>
     </config>
 
-  <updateservers>
-            <server type="extension" name="Stomt Update Site">https://github.com/stomt/stomt-joomla-extension/blob/master/Stomt/manifest.xml</server>
-    </updateservers>
+    <updateservers>
+		    <server type="extension" name="Stomt Update Site">https://github.com/stomt/stomt-joomla-extension/blob/master/Stomt/manifest.xml</server>
+	</updateservers>
 </extension>
