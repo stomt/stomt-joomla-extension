@@ -116,5 +116,7 @@
         </fields>
     </config>
 
-  
+  <updateservers>
+            <server type="extension" name="Stomt Update Site">https://github.com/stomt/stomt-joomla-extension/blob/master/Stomt/manifest.xml</server>
+    </updateservers>
 </extension>
