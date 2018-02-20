@@ -13,7 +13,7 @@
         <tag>stable</tag>
     </tags>
     <maintainer>jt</maintainer>
-    <maintainerurl>http://usersnap.com</maintainerurl>
+    <maintainerurl>http://stomt.com</maintainerurl>
     <section>Bugtracking</section>
     <targetplatform name="joomla" version="1.6"/>
  </update>
