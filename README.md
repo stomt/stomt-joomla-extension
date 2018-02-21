@@ -51,6 +51,10 @@ The parameters can be configured in the admin-panel to initialize the widget.
 ### integrate feed:
 1- create a custom model
 2-add the code to source code
+```JavaScript
+Stomt.push(['addTab', options]);
+```
+
 ```html
 <div id="stomt_feed"></div>```
 3-add position and save
