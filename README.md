@@ -43,20 +43,19 @@ The parameters can be configured in the admin-panel to initialize the widget.
 ### Create feed:
 1- create a custom model
 2-add the code to source code
-```html
-<div id="stomt_create"></div>```
+<div id="stomt_create"></div>
 3-add position and 
 <img alt="Easy Integration" width="400" src="assets/create_feed.png"/>
 
 ### integrate feed:
 1- create a custom model
-2-add the code to source code
-```JavaScript
-Stomt.push(['addTab', options]);
-```
 
-```html
-<div id="stomt_feed"></div>```
+2-add the code to source code
+
+
+<div id="stomt_feed"></div>
+
+
 3-add position and save
 
 <img alt="Easy Integration" width="400" src="assets/integrate_feed.png"/>
