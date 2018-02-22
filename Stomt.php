@@ -19,7 +19,7 @@
  *
  * You should have received a copy of the GNU General Public License along with this library.  If not, see <http://www.gnu.org/licenses/>
  *
-# author    Stomt GmbH
+# author    STOMT GmbH
 # @copyright Copyright (C) 2018 stomt.com. All Rights Reserved.
 # @license - https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
 # Websites: https://www.stomt.com
