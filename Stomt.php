@@ -1,19 +1,35 @@
 <?php
+
+
 /*------------------------------------------------------------------------
 # stomt.php - STOMT - Easy Feedback
 # ------------------------------------------------------------------------
+* LICENSE:
+ *
+ * This library is free software; you can redistribute it
+ * and/or modify it under the terms of the GNU Lesser General
+ * Public License as published by the Free Software Foundation;
+ * either version 2.1 of the License, or (at your option) any
+ * later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with this library.  If not, see <http://www.gnu.org/licenses/>
+ *
 # author    Stomt GmbH
-# copyright Copyright (C) 2018 stomt.com. All Rights Reserved.
-# @license - MIT
+# @copyright Copyright (C) 2018 stomt.com. All Rights Reserved.
+# @license - https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
 # Websites: https://www.stomt.com
 # Technical Support: contact@stomt.com
+# Documentation: https://github.com/stomt/stomt-joomla-extension/blob/master/README.md
+
 -------------------------------------------------------------------------*/
-// no direct access
+
 defined('JPATH_BASE') or die('Restricted access');
 
-/**
- * Example system plugin.
- */
 class plgSystemStomt extends JPlugin
 {
     public function onBeforeRender() {
