@@ -30,7 +30,7 @@
 
 defined('JPATH_BASE') or die('Restricted access');
 
-class plgSystemStomt extends JPlugin
+class plgSystemStomtFeedback extends JPlugin
 {
     public function onBeforeRender() {
         if (JFactory::getApplication()->isSite()) {

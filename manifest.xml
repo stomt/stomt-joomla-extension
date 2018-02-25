@@ -1,10 +1,10 @@
 <update>
     <name>Stomt 1.0.0</name>
     <description>STOMT 1.0.0</description>
-    <element>Stomt</element>
+    <element>StomtFeedback</element>
     <type>file</type>
     <version>1.0.0</version>
-    <infourl title="Stomt">http://www.stomt.com</infourl>
+    <infourl title="StomtFeedback">http://www.stomt.com</infourl>
     <downloads>
         <downloadurl type="full" format="zip">https://github.com/stomt/stomt-joomla-extension/archive/master.zip</downloadurl>
     </downloads>
