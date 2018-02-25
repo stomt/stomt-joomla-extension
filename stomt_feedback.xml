@@ -14,15 +14,15 @@
     <files>
             <filename plugin="stomt_feedback">stomt_feedback.php</filename>
             <filename>index.html</filename>
-            <filename>language/en-GB.plg_system_Stomt.sys.ini</filename>
-        <filename>language/de-DE.plg_system_Stomt.sys.ini</filename>
+            <filename>language/en-GB.plg_system_stomt_feedback.sys.ini</filename>
+        <filename>language/de-DE.plg_system_stomt_feedback.sys.ini</filename>
     </files>
 
     <languages>
-        <language tag="en-GB">language/en-GB.plg_system_Stomt.ini</language>
-        <language tag="en-GB">language/en-GB.plg_system_Stomt.sys.ini</language>
-        <language tag="de-DE">language/de-DE.plg_system_Stomt.ini</language>
-          <language tag="de-DE">language/de-DE.plg_system_Stomt.sys.ini</language>
+        <language tag="en-GB">language/en-GB.plg_system_stomt_feedback.ini</language>
+        <language tag="en-GB">language/en-GB.plg_system_stomt_feedback.sys.ini</language>
+        <language tag="de-DE">language/de-DE.plg_system_stomt_feedback.ini</language>
+          <language tag="de-DE">language/de-DE.plg_system_stomt_feedback.sys.ini</language>
     </languages>
 
        <config>
