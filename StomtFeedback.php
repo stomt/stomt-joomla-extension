@@ -32,7 +32,8 @@ defined('JPATH_BASE') or die('Restricted access');
 
 class plgSystemStomtFeedback extends JPlugin
 {
-    public function onBeforeRender() {
+    public function onAfterDispatch() {
+
         if (JFactory::getApplication()->isSite()) {
             $document = JFactory::getDocument();
             $stomt_id = $this->params->get('stomt_id');
@@ -41,35 +42,34 @@ class plgSystemStomtFeedback extends JPlugin
             $stomt_color_backg = $this->params->get('color_background');
             $stomt_color_hover = $this->params->get('color_hover');
             $position = $this->params->get('position', 'right');
-            $preload = $this->params->get('preload', 0);
-?>
-<script>
-    var options = {
-      appId: '<?php echo $stomt_id; ?>',
-      position: '<?php echo $position; ?>', 
-      label: '<?php echo $stomt_label; ?>',
-      colorText: '<?php echo $stomt_color_text; ?>', 
-      colorBackground:'<?php echo $stomt_color_backg; ?>',
-      colorHover:'<?php echo $stomt_color_hover; ?>',
-      preload: <?php echo $preload ? 'true' : 'false'; ?>
-    };
+            $preload = $this->params->get('preload', 0) ? 'true' : 'false';
 
-    // Include the STOMT JavaScript SDK
-    (function(w, d, n, r, t, s){
-        w.Stomt = w.Stomt||[];
-        t = d.createElement(n);
-        s = d.getElementsByTagName(n)[0];
-        t.async=1;
-        t.src=r;
-        s.parentNode.insertBefore(t,s);
-    })(window, document, 'script', 'https://www.stomt.com/widget.js');
+            $document->addScriptDeclaration("
+                var options = {
+                  appId: '{$stomt_id}',
+                  position: '{$position}',
+                  label: '{$stomt_label}',
+                  colorText: '{$stomt_color_text}',
+                  colorBackground:'{$stomt_color_backg}',
+                  colorHover:'{$stomt_color_hover}',
+                  preload: {$preload}
+                };
 
-    // Configure the integration
-    Stomt.push(['addTab', options]);
-    Stomt.push(['addFeed', options]);
-    Stomt.push(['addCreate', options]);
-</script>
-<?php
+                // Include the STOMT JavaScript SDK
+                (function(w, d, n, r, t, s){
+                    w.Stomt = w.Stomt||[];
+                    t = d.createElement(n);
+                    s = d.getElementsByTagName(n)[0];
+                    t.async=1;
+                    t.src=r;
+                    s.parentNode.insertBefore(t,s);
+                })(window, document, 'script', 'https://www.stomt.com/widget.js');
+
+                // Configure the integration
+                Stomt.push(['addTab', options]);
+                Stomt.push(['addFeed', options]);
+                Stomt.push(['addCreate', options]);
+            ");
         }
     }
 }
