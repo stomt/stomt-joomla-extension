@@ -40,32 +40,32 @@ The parameters can be configured in the admin-panel to initialize the widget.
 <img alt="Easy Integration" width="400" src="assets/user_interface.png"/>
 
 ## Documentation Feed
-### Create feed:
+### Create Feed:
 <img alt="Easy Integration" align="right" width="400" src="assets/create_feed.png"/>
 
 ```html
 <div id="stomt_create"></div>
 ```
-1- create a custom model
+1. Create a custom model
 
-2-add the code to source code
+2. Add the code to source code
 
-3-add position and save
-
-
+3. Add position and save
 
 
-### integrate feed:
+### Integrate Feed:
 <img alt="Easy Integration" align="right" width="400" src="assets/integrate_feed.png"/>
 
 ```html
 <div id="stomt_feed"></div>
 ```
-1- create a custom model
+1. Create a custom model
 
-2-add the code to source code
+2. Add the code to source code
 
-3-add position and save
+3. Add position and save
+
+
 
 ## Frequently Asked Questions
 
