@@ -3,11 +3,11 @@
     <name>STOMT Feedback</name>
     <author>STOMT.com</author>
     <creationDate>FEB 2018</creationDate>
-    <copyright>Copyright (C) 2018 stomt.com</copyright>
+    <copyright>Copyright (C) 2020 stomt.com</copyright>
     <license>GNU/GPLv3 https://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>contact@stomt.com</authorEmail>
     <authorUrl>https://www.stomt.com</authorUrl>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <releaseDate>2018-02-16</releaseDate>
     <description>STOMT makes it easy for anyone to provide instant feedback. This plugin allows you to customize the STOMT feedback button and add it to your Joomla site. Installation is simple and only takes seconds. Go to 'Extensions' -> 'Plugins' and search for 'STOMT'</description>
 
